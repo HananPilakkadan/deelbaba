@@ -1,0 +1,16 @@
+.categoryItem {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+  img {
+    width: 30px;
+    margin: 20px auto;
+    display: block;
+  }
+}
