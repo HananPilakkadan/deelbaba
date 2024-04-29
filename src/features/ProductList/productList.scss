@@ -8,11 +8,18 @@
   &.banner-row {
     display: flex;
     flex-wrap: nowrap !important;
+    @media (max-width: 1052px) {
+      flex-wrap: wrap !important;
+    }
   }
   .banner-img {
     width: 70%;
     height: 100%;
     margin-left: 20px;
+    @media (max-width: 780px) {
+      margin: 20px 0;
+      width: 100%;
+    }
     img {
       width: 100%;
 
