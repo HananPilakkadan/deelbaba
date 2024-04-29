@@ -1,0 +1,22 @@
+.product-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  width: 95%;
+  margin: auto;
+  &.banner-row {
+    display: flex;
+    flex-wrap: nowrap !important;
+  }
+  .banner-img {
+    width: 70%;
+    height: 100%;
+    margin-left: 20px;
+    img {
+      width: 100%;
+
+      display: block;
+    }
+  }
+}

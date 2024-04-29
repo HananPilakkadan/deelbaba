@@ -22,6 +22,13 @@ import {
   linkedIn,
   xmaspic,
   dummy,
+  laptop,
+  lotions,
+  smartphone,
+  spare,
+  vehicles,
+  dress,
+  electronics,
 } from "../images/images";
 
 export const promotion = [
@@ -130,17 +137,17 @@ export const employers = [
   { id: 18, photo: nurse, title: "Nurse" },
   { id: 19, photo: nurse, title: "Nurse" },
   { id: 20, photo: nurse, title: "Nurse" },
-  {id: 22, photo: nurse,title: "Nurse"},
-  {id: 23, photo: nurse,title: "Nurse"},
-  {id: 24, photo: nurse,title: "Nurse"},
-  {id: 25, photo: nurse,title: "Nurse"},
-  {id: 26, photo: nurse,title: "Nurse"},
-
-
+  { id: 22, photo: nurse, title: "Nurse" },
+  { id: 23, photo: nurse, title: "Nurse" },
+  { id: 24, photo: nurse, title: "Nurse" },
+  { id: 25, photo: nurse, title: "Nurse" },
+  { id: 26, photo: nurse, title: "Nurse" },
 ];
-export const flatDummy =[
-    {id:1,img:dummy},{id:2,img:dummy},{id:3,img:dummy}
-]
+export const flatDummy = [
+  { id: 1, img: dummy },
+  { id: 2, img: dummy },
+  { id: 3, img: dummy },
+];
 export const features = [
   {
     id: 1,
@@ -309,4 +316,42 @@ export const slider = [
   { id: 2, img: xmaspic },
   { id: 3, img: xmaspic },
   { id: 4, img: xmaspic },
+];
+
+export const categoryItems = [
+  {
+    id: 1,
+    name: "Fashions",
+    image: dress,
+  },
+  {
+    id: 2,
+    name: "Mobile",
+    image: smartphone,
+  },
+  {
+    id: 3,
+    name: "Electronics",
+    image: laptop,
+  },
+  {
+    id: 4,
+    name: "Appliance",
+    image: electronics,
+  },
+  {
+    id: 5,
+    name: "Beuty&Health",
+    image: lotions,
+  },
+  {
+    id: 6,
+    name: "Hardware",
+    image: spare,
+  },
+  {
+    id: 7,
+    name: "Spare Parts",
+    image: vehicles,
+  },
 ];

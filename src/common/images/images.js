@@ -39,7 +39,17 @@ import dummy from "../../assets/images/dummy.png";
 import union from "../../assets/images/Union.png";
 import deelbabatrans from "../../assets/images/deelbabatrans.png";
 import nurseimg from "../../assets/images/nurseimg.png";
-
+import laptop from "../../assets/images/laptop.png";
+import lotions from "../../assets/images/lotions.png";
+import smartphone from "../../assets/images/smartphone.png";
+import spare from "../../assets/images/spares.png";
+import vehicles from "../../assets/images/vehicles.png";
+import dress from "../../assets/images/dress.png";
+import electronics from "../../assets/images/electronics.png";
+import offer_banner from "../../assets/images/offer_baner.png";
+import control from "../../assets/images/control.svg";
+import adidas from "../../assets/images/adidas.png";
+import zara from "../../assets/images/zara.png";
 
 export {
   deelbaba,
@@ -83,4 +93,15 @@ export {
   union,
   deelbabatrans,
   nurseimg,
+  laptop,
+  lotions,
+  smartphone,
+  spare,
+  vehicles,
+  dress,
+  electronics,
+  offer_banner,
+  control,
+  adidas,
+  zara,
 };
