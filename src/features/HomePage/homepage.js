@@ -4,7 +4,7 @@ import {
   employers,
   features,
   promotion,
-  cards
+  cards,
 } from "../../common/constants/constants";
 import "./home.scss";
 import Title from "../../common/components/title";
@@ -15,8 +15,8 @@ import Slider from "../../common/components/slider";
 import Footer from "../Footer/footer";
 import FeatureCard from "../../common/components/featureCard";
 import Hamburger from "../Hamburger/hamburger";
-import SpotLight from "../../common/components/spotLight";
-import Cards from "../../common/components/cards"
+import SpotLight from "../../common/components/spotlight/spotLight";
+import Cards from "../../common/components/cards";
 
 const Home = () => {
   return (
@@ -78,7 +78,7 @@ const Home = () => {
         </div>
       </div>
       <section className="card-section">
-      <div className="features-top">
+        <div className="features-top">
           <Title className={"feature-title"} titleText={"Best "} />
           <hr className="line" />
         </div>

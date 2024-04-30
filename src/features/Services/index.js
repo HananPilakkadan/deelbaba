@@ -1,5 +1,5 @@
 import React from "react";
-import SpotLight from "../../common/components/spotLight";
+import SpotLight from "../../common/components/spotlight/spotLight";
 import { employers, flatDummy } from "../../common/constants/constants";
 import ServiceEmployeCard from "../../common/components/serviceEmployeCard";
 import Footer from "../Footer/footer";
@@ -9,13 +9,13 @@ function Index() {
   const renderEmployees = (index, count) => {
     return employers.slice(index, index + count).map((item) => {
       const { id } = item;
-      return <ServiceEmployeCard key={id} item={item}/>;
+      return <ServiceEmployeCard key={id} item={item} />;
     });
   };
 
   return (
     <div>
-       <Hamburger />
+      <Hamburger />
       <SpotLight />
       <div className="employersCard">
         {renderEmployees(0, 10)}

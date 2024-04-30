@@ -50,6 +50,7 @@ import offer_banner from "../../assets/images/offer_baner.png";
 import control from "../../assets/images/control.svg";
 import adidas from "../../assets/images/adidas.png";
 import zara from "../../assets/images/zara.png";
+import landingPageSpotlightImage from "../../assets/images/bench-accounting-C3V88BOoRoM-unsplash 1.png"
 
 export {
   deelbaba,
@@ -104,4 +105,5 @@ export {
   control,
   adidas,
   zara,
+  landingPageSpotlightImage
 };
