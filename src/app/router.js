@@ -8,6 +8,7 @@ import Work from "../features/Work";
 import ProductList from "../features/ProductList/productList";
 import AutoMobile from "../features/AutoMobile";
 import ProductSingle from "../features/ProductSingle";
+import Cart from "../features/Cart";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
         <Route path="/product-list" element={<ProductList />} />
         <Route path="/automobile" element={<AutoMobile />} />
         <Route path="/product/:id" element={<ProductSingle />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </BrowserRouter>
