@@ -5,16 +5,20 @@ import "swiper/css";
 
 const OfferBanner = () => {
   const breakpoints = {
+    400: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
     640: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 40,
     },
   };

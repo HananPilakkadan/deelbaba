@@ -6,6 +6,8 @@ import Hamburger from "../features/Hamburger/hamburger";
 import Footer from "../features/Footer/footer";
 import Work from "../features/Work";
 import ProductList from "../features/ProductList/productList";
+import AutoMobile from "../features/AutoMobile";
+import ProductSingle from "../features/ProductSingle";
 
 const Router = () => {
   return (
@@ -16,6 +18,8 @@ const Router = () => {
         <Route path="/services" element={<Services />} />{" "}
         <Route path="/work-detail" element={<Work />} />
         <Route path="/product-list" element={<ProductList />} />
+        <Route path="/automobile" element={<AutoMobile />} />
+        <Route path="/product/:id" element={<ProductSingle />} />
       </Routes>
       <Footer />
     </BrowserRouter>

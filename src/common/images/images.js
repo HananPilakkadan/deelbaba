@@ -50,6 +50,18 @@ import offer_banner from "../../assets/images/offer_baner.png";
 import control from "../../assets/images/control.svg";
 import adidas from "../../assets/images/adidas.png";
 import zara from "../../assets/images/zara.png";
+import spareBanner from "../../assets/images/spare-banner.png";
+import engine from "../../assets/images/engine.png";
+import steering from "../../assets/images/steering-wheel.png";
+import bike from "../../assets/images/bycicle.png";
+import sedan from "../../assets/images/sedan.png";
+import carWash from "../../assets/images/car-wash.png";
+import discount from "../../assets/images/discount1.png";
+import discount_two from "../../assets/images/discount2.png";
+import unboxing from "../../assets/images/unboxing.png";
+import rupee from "../../assets/images/rupee.png";
+import delivery from "../../assets/images/delivery.png";
+import review_image from "../../assets/images/user-review.png";
 
 export {
   deelbaba,
@@ -104,4 +116,16 @@ export {
   control,
   adidas,
   zara,
+  spareBanner,
+  engine,
+  steering,
+  bike,
+  sedan,
+  carWash,
+  discount,
+  discount_two,
+  unboxing,
+  rupee,
+  delivery,
+  review_image,
 };

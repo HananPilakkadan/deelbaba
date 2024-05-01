@@ -7,9 +7,11 @@
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  margin: 10px;
   flex-direction: column;
   transition: 0.3s ease-in;
   cursor: pointer;
+
   &:hover {
     transform: scale(1.02);
   }

@@ -3,27 +3,25 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 60px;
-  width: 95%;
+  //   width: 95%;
+  margin-right: 30px;
   margin: auto;
-  &.banner-row {
-    display: flex;
-    flex-wrap: nowrap !important;
-    @media (max-width: 1052px) {
-      flex-wrap: wrap !important;
-    }
-  }
+
   .banner-img {
-    width: 70%;
-    height: 100%;
-    margin-left: 20px;
+    margin: 0 20px;
     @media (max-width: 780px) {
       margin: 20px 0;
-      width: 100%;
+      width: 90%;
     }
     img {
       width: 100%;
-
       display: block;
     }
+  }
+
+  .product-wrapper {
+    width: 95%;
+    max-width: 1350px;
+    margin: auto;
   }
 }
