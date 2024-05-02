@@ -9,11 +9,13 @@ import ProductList from "../features/ProductList/productList";
 import AutoMobile from "../features/AutoMobile";
 import ProductSingle from "../features/ProductSingle";
 import Cart from "../features/Cart";
+import Address from "../features/Address";
 
 const Router = () => {
+  const noHeader = window.location.pathname == "/address";
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar noHeader={noHeader} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />{" "}
@@ -22,8 +24,9 @@ const Router = () => {
         <Route path="/automobile" element={<AutoMobile />} />
         <Route path="/product/:id" element={<ProductSingle />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/address" element={<Address />} />
       </Routes>
-      <Footer />
+      {!noHeader && <Footer />}
     </BrowserRouter>
   );
 };

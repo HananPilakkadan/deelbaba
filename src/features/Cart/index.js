@@ -2,6 +2,7 @@ import React from "react";
 import { sneakers } from "../../common/images/images";
 import { CiTrash } from "react-icons/ci";
 import "./Cart.scss";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -118,7 +119,9 @@ const Cart = () => {
                   <span>$10500</span>
                 </div>
               </div>
-              <button> PLACE ORDER</button>
+              <button>
+                <Link to="/address">PLACE ORDER</Link>
+              </button>
             </div>
           </div>
         </div>

@@ -62,6 +62,9 @@ import unboxing from "../../assets/images/unboxing.png";
 import rupee from "../../assets/images/rupee.png";
 import delivery from "../../assets/images/delivery.png";
 import review_image from "../../assets/images/user-review.png";
+import credi_card from "../../assets/images/credit-card.png";
+import cart_bag from "../../assets/images/bag.png";
+import address from "../../assets/images/address.png";
 
 export {
   deelbaba,
@@ -128,4 +131,7 @@ export {
   rupee,
   delivery,
   review_image,
+  credi_card,
+  cart_bag,
+  address,
 };
