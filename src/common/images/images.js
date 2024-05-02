@@ -65,6 +65,10 @@ import review_image from "../../assets/images/user-review.png";
 import credi_card from "../../assets/images/credit-card.png";
 import cart_bag from "../../assets/images/bag.png";
 import address from "../../assets/images/address.png";
+import amex from "../../assets/images/Amex.png";
+import visa from "../../assets/images/Visa.png";
+import mastercard from "../../assets/images/Mastercard.png";
+import jcb from "../../assets/images/JCB.png";
 
 export {
   deelbaba,
@@ -134,4 +138,8 @@ export {
   credi_card,
   cart_bag,
   address,
+  amex,
+  visa,
+  mastercard,
+  jcb,
 };

@@ -56,7 +56,10 @@ const ProductSingle = () => {
           <div className="image-view">{<img src={sneakers} alt="" />}</div>
           <div className="button-box">
             <button>BUY NOW</button>
-            <button>ADD TO CART</button>
+
+            <Link to="/cart">
+              <button>ADD TO CART</button>
+            </Link>
           </div>
         </div>
         <div className="info-box">

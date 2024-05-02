@@ -1,5 +1,6 @@
 import Router from "./app/router";
 import { MantineProvider, Text } from "@mantine/core";
+import ScrollToTop from "./common/constants/scrollTop";
 
 function App() {
   return (

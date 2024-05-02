@@ -1,12 +1,20 @@
+import { useEffect, useState } from "react";
 import { deelbaba, avatar, wallet } from "../images/images";
 import Button from "./button";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-const Navbar = ({ noHeader }) => {
+const Navbar = () => {
+  const [noHeader, setNoHeader] = useState();
+  const location = useLocation();
+  useEffect(() => {
+    setNoHeader(location.pathname == "/address");
+  }, [location]);
   return (
     <div className="nav-bar">
       <div className="logo-container">
-        <img src={deelbaba} alt="logo" />
+        <Link to="/">
+          <img src={deelbaba} alt="logo" />
+        </Link>
       </div>
       {!noHeader && (
         <ul className="middle">

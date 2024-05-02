@@ -2,23 +2,15 @@ import { useState } from "react";
 import { shoppingCart, star } from "../images/images";
 import Button from "./button";
 import { IoIosHeartEmpty, IoIosHeart } from "react-icons/io";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const FeatureCard = ({ items, margin }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const navigate = useNavigate();
   const { id, item, rating, text, price, description, discount, offer } = items;
 
-  const handleNavigate = () => {
-    navigate(`product/${id}`, { relative: "path" });
-  };
-
   return (
-    <div
-      className="feature-card"
-      style={margin && { margin: "10px" }}
-      onClick={handleNavigate}
-    >
+    <div className="feature-card" style={margin && { margin: "10px" }}>
       <div className="feature-image" key={id}>
         <div className="product-image">
           <img src={item} alt="item" />
@@ -55,7 +47,9 @@ const FeatureCard = ({ items, margin }) => {
         </div>
       </div>
       <div className="button-section">
-        <Button className="feature-button" buttonText="Buy now" />
+        <Link to={`/product/${id}`}>
+          <Button className="feature-button" buttonText="Buy now" />
+        </Link>
         <div className="cartimg-container">
           <img src={shoppingCart} alt="shopping-cart" />
         </div>

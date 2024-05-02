@@ -72,6 +72,8 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+  position: relative;
+  z-index: 44;
   button {
     width: 240px;
     padding: 12px 20px;
