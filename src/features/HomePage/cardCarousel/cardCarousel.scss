@@ -1,0 +1,46 @@
+$pistah-green: #689567;
+
+.features {
+    .features-top {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin: 40px auto;
+      width: 90%;
+
+      .feature-title {
+        text-align: left;
+        color: black;
+        font-size: 45px;
+        font-weight: bold;
+        text-wrap: nowrap;
+        span  {
+            text-align: left;
+        color: $pistah-green;
+        font-size: 45px;
+        font-weight: bold;
+        text-wrap: nowrap;
+          }
+
+       
+      }
+
+      hr {
+        width: 90%;
+        height: 2px;
+        opacity: 0.2;
+        background-color: #000;
+      }
+    }
+
+    .features-bottom {
+      display: flex;
+      gap: 35px;
+      overflow-x: scroll;
+      padding-left: 60px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }

@@ -4,7 +4,7 @@ import "./spotlight.scss";
 import SearchBar from "../searchBar";
 import Button from "../button";
 
-const spotLight = () => {
+const SpotLight = () => {
   return (
     <div
       className="spotlight"
@@ -35,4 +35,4 @@ const spotLight = () => {
   );
 };
 
-export default spotLight;
+export default SpotLight;

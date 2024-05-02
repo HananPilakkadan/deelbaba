@@ -1,7 +1,7 @@
 import { IoIosClose } from "react-icons/io";
 import Categorybar from "../../common/components/CategoryBar";
 import OfferBanner from "../../common/components/ProductOfferBanner";
-import Navbar from "../../common/components/navBar";
+import Navbar from "../../common/components/navbar/navBar";
 import { adidas, control, zara } from "../../common/images/images";
 import { features } from "../../common/constants/constants";
 import FeatureCard from "../../common/components/featureCard";

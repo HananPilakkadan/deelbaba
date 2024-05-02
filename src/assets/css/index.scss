@@ -32,69 +32,6 @@ a {
 $pistah-green: #689567;
 
 //navbar
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 80px;
-  margin: 0 auto;
-  box-shadow: 0px 0px 0px 1px rgb(234, 231, 231);
-
-  .logo-container {
-    img {
-      width: 100%;
-      display: block;
-    }
-  }
-
-  .middle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    border-radius: 29px;
-    border: 1px solid #000;
-    padding: 4px 14px;
-
-    li {
-      padding: 5px 20px;
-      border-radius: 24px;
-      cursor: pointer;
-      font-size: 20px;
-      text-wrap: nowrap;
-
-      &:hover {
-        background-color: #393737;
-        color: white;
-        padding: 5px 20px;
-      }
-    }
-  }
-
-  .right-section {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: space-between;
-
-    .img-container {
-      img {
-        display: block;
-      }
-    }
-
-    .login {
-      padding: 14px 12px;
-      background-color: #212121;
-      color: white;
-      border-radius: 10px;
-
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
-}
 
 //components
 //feature-card
@@ -227,56 +164,7 @@ $pistah-green: #689567;
     display: none;
   }
 
-  .emp-card {
-    border-radius: 48px;
-    background: #fff;
-    width: 260px;
-    height: 360px;
-    box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.101);
-    text-align: center;
-    margin: 25px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    justify-content: center;
-
-    .emp-image-container {
-      width: 170px;
-      align-self: center;
-
-      img {
-        display: block;
-        width: 100%;
-      }
-    }
-    .buttons {
-      display: flex;
-      gap: 10px;
-      margin-top: 15px;
-
-      .work {
-        border-radius: 8px;
-        background: #689567;
-        width: 128px;
-        height: 39px;
-
-        &:hover {
-          opacity: 0.7;
-        }
-      }
-
-      .hire {
-        border-radius: 8px;
-        border: 1px solid #689567;
-        width: 128px;
-        height: 39px;
-
-        &:hover {
-          opacity: 0.7;
-        }
-      }
-    }
-  }
+  
 }
 .banner-overlay {
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
