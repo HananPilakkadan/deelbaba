@@ -69,6 +69,9 @@ import amex from "../../assets/images/Amex.png";
 import visa from "../../assets/images/Visa.png";
 import mastercard from "../../assets/images/Mastercard.png";
 import jcb from "../../assets/images/JCB.png";
+import like from "../../assets/images/like 1.png";
+import dislike from "../../assets/images/like 2.png";
+import sun_icon from "../../assets/images/icon_sun.png";
 
 export {
   deelbaba,
@@ -142,4 +145,7 @@ export {
   visa,
   mastercard,
   jcb,
+  like,
+  dislike,
+  sun_icon,
 };

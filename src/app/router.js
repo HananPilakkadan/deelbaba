@@ -12,6 +12,9 @@ import Cart from "../features/Cart";
 import Address from "../features/Address";
 import { useEffect, useState } from "react";
 import ScrollToTop from "../common/constants/scrollTop";
+import WorkersList from "../features/WorkersList";
+import ServiceSingle from "../features/ServiceSingle";
+import ServiceAddress from "../features/ServiceAddress";
 
 const Router = () => {
   return (
@@ -27,6 +30,9 @@ const Router = () => {
           <Route path="/product/:id" element={<ProductSingle />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/address" element={<Address />} />
+          <Route path="/workers" element={<WorkersList />} />
+          <Route path="/workers/:id" element={<ServiceSingle />} />
+          <Route path="/service-address" element={<ServiceAddress />} />
         </Routes>
         <Footer />
       </ScrollToTop>

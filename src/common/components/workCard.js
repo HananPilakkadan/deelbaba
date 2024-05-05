@@ -1,8 +1,9 @@
 import React from "react";
 import { nurseimg, union } from "../../common/images/images";
 import Button from "./button";
+import { Link } from "react-router-dom";
 
-const WorkCard = ({ name, location, distance, worksCompleted }) => {
+const WorkCard = ({ name, location, distance, worksCompleted, path }) => {
   return (
     <div className="union">
       <div className="unionContainer">
@@ -16,7 +17,9 @@ const WorkCard = ({ name, location, distance, worksCompleted }) => {
         <span>{location}</span> <span>{distance}</span>{" "}
         <span>{worksCompleted} work completed</span>
       </p>
-      <Button className="buttonSchedule" buttonText={"Schedule"} />
+      <Link to={path}>
+        <Button className="buttonSchedule" buttonText={"Schedule"} />
+      </Link>
       <Button className="buttonSee" buttonText={"See More"} />
     </div>
   );
