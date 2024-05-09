@@ -1,0 +1,32 @@
+.cart-empty {
+  text-align: center;
+  img {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    @media (max-width: 560px) {
+      width: 200px;
+    }
+  }
+  h5 {
+    font-size: 30px;
+    text-transform: capitalize;
+    @media (max-width: 560px) {
+      font-size: 22px;
+    }
+  }
+  p {
+    text-transform: capitalize;
+    @media (max-width: 560px) {
+      font-size: 14px;
+    }
+  }
+  a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #689567;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 35px;
+  }
+}

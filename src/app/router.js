@@ -15,6 +15,9 @@ import ScrollToTop from "../common/constants/scrollTop";
 import WorkersList from "../features/WorkersList";
 import ServiceSingle from "../features/ServiceSingle";
 import ServiceAddress from "../features/ServiceAddress";
+import Wishlist from "../features/Wishlist";
+import SignUp from "../features/Auth/SignUp";
+import Login from "../features/Auth/Login";
 
 const Router = () => {
   return (
@@ -23,16 +26,18 @@ const Router = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/services" element={<Services />} />{" "}
-          <Route path="/work-detail" element={<Work />} />
+          <Route path="/work-detail" element={<WorkersList />} />
           <Route path="/product-list" element={<ProductList />} />
           <Route path="/automobile" element={<AutoMobile />} />
           <Route path="/product/:id" element={<ProductSingle />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/address" element={<Address />} />
-          <Route path="/workers" element={<WorkersList />} />
           <Route path="/workers/:id" element={<ServiceSingle />} />
           <Route path="/service-address" element={<ServiceAddress />} />
+          <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
         <Footer />
       </ScrollToTop>

@@ -72,6 +72,8 @@ import jcb from "../../assets/images/JCB.png";
 import like from "../../assets/images/like 1.png";
 import dislike from "../../assets/images/like 2.png";
 import sun_icon from "../../assets/images/icon_sun.png";
+import cart_empty from "../../assets/images/cart-empty.png";
+import wishlist_empty from "../../assets/images/empty-wishlist.png";
 
 export {
   deelbaba,
@@ -148,4 +150,6 @@ export {
   like,
   dislike,
   sun_icon,
+  cart_empty,
+  wishlist_empty,
 };
